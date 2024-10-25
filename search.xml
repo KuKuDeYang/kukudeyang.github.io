@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>git同时上传gitee和github</title>
+      <link href="/2024/10/25/git%E5%90%8C%E6%97%B6%E4%B8%8A%E4%BC%A0gitee%E5%92%8Cgithub/"/>
+      <url>/2024/10/25/git%E5%90%8C%E6%97%B6%E4%B8%8A%E4%BC%A0gitee%E5%92%8Cgithub/</url>
+      
+        <content type="html"><![CDATA[<h1 id="git同时上传gitee和github平台"><a href="#git同时上传gitee和github平台" class="headerlink" title="git同时上传gitee和github平台"></a><center>git同时上传gitee和github平台</center></h1><p>转自：<a href="https://segmentfault.com/a/1190000044950335">前端 - 将本地仓库项目上传github和gitee仓库中 - 个人文章 - SegmentFault 思否</a></p><h2 id="1-创建仓库"><a href="#1-创建仓库" class="headerlink" title="1.创建仓库"></a>1.创建仓库</h2><p>点击右上角 + 处，选择新建仓库</p><p><img src="/1.png" alt="git同时上传gitee和github平台"></p><p><img src="/2024/10/25/git%E5%90%8C%E6%97%B6%E4%B8%8A%E4%BC%A0gitee%E5%92%8Cgithub/2.png" alt="git同时上传gitee和github平台"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术连连看 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小笼包查收</title>
       <link href="/2024/10/19/%E5%B0%8F%E7%AC%BC%E5%8C%85%E6%9F%A5%E6%94%B6/"/>
       <url>/2024/10/19/%E5%B0%8F%E7%AC%BC%E5%8C%85%E6%9F%A5%E6%94%B6/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="交作业时间！"><a href="#交作业时间！" class="headerlink" title="交作业时间！"></a><center>交作业时间！</center></h1><p>​负负得正</p><h3 id="接下来是其他东西"><a href="#接下来是其他东西" class="headerlink" title="接下来是其他东西"></a>接下来是其他东西</h3><p>​我是个俗人，没什么理想，也没什么抱负，没什么不良嗜好，也没什么高雅爱好。</p>]]></content>
       
       
       <categories>
@@ -20,7 +45,7 @@
       
         <tags>
             
-            <tag> 小笼包 </tag>
+            <tag> 负负得正 </tag>
             
         </tags>
       
@@ -58,7 +83,7 @@
       <link href="/2023/12/25/%E5%8D%9A%E5%AE%A2%E7%A7%BB%E5%8A%A8%E5%90%8E%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2/"/>
       <url>/2023/12/25/%E5%8D%9A%E5%AE%A2%E7%A7%BB%E5%8A%A8%E5%90%8E%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2/</url>
       
-        <content type="html"><![CDATA[<h2 id="更换电脑或者多电脑同时维护博客"><a href="#更换电脑或者多电脑同时维护博客" class="headerlink" title="更换电脑或者多电脑同时维护博客"></a><center>更换电脑或者多电脑同时维护博客</center></h2><ol><li><p>在git上拉取代码</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone &lt;代码地址&gt;</span><br></pre></td></tr></table></figure></li><li><p>在博客路径下，下载npm包</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wudiyang@LAPTOP-KPI0GRB3 MINGW64 /e/YangFengLiu (hexo)</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></li><li><p>进行博客的基本操作</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;文章标题&quot;  //新建文章</span><br><span class="line">hexo g           //生成网站静态文件到默认设置的 public 文件夹</span><br><span class="line">hexo s           //启动本地服务器</span><br><span class="line">hexo clean       //清除缓存文件和已生成的静态文件</span><br><span class="line">hexo d           //部署网站</span><br><span class="line">hexo new draft &quot;文章标题&quot; //新建草稿</span><br><span class="line">hexo p &lt;草稿名称&gt;   //发布草稿</span><br><span class="line">hexo s --draft    //本机预览草稿</span><br></pre></td></tr></table></figure></li><li><p>上传代码到git</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add -A </span><br><span class="line">git commit -m &quot;备注&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="更换电脑或者多电脑同时维护博客"><a href="#更换电脑或者多电脑同时维护博客" class="headerlink" title="更换电脑或者多电脑同时维护博客"></a><center>更换电脑或者多电脑同时维护博客</center></h2><ol><li><p>在git上拉取代码</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone &lt;代码地址&gt;</span><br></pre></td></tr></table></figure></li><li><p>在博客路径下，下载npm包</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wudiyang@LAPTOP-KPI0GRB3 MINGW64 /e/YangFengLiu (hexo)</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></li><li><p>进行博客的基本操作</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;文章标题&quot;  //新建文章</span><br><span class="line">hexo g           //生成网站静态文件到默认设置的 public 文件夹</span><br><span class="line">hexo s           //启动本地服务器</span><br><span class="line">hexo clean       //清除缓存文件和已生成的静态文件</span><br><span class="line">hexo d           //部署网站</span><br><span class="line">hexo new draft &quot;文章标题&quot; //新建草稿</span><br><span class="line">hexo p &lt;草稿名称&gt;   //发布草稿</span><br><span class="line">hexo s --draft    //本机预览草稿</span><br></pre></td></tr></table></figure></li><li><p>上传代码到git</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add -A </span><br><span class="line">git commit -m &quot;备注&quot;</span><br><span class="line">git push origin 分支名  // 可简写为 git push;   origin为远程主机名 默认为origin  可使用git remote 命令查看已添加的远程主机名</span><br></pre></td></tr></table></figure></li></ol>]]></content>
       
       
       <categories>
